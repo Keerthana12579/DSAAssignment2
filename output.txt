@@ -1,0 +1,39 @@
+HASH TABLE INSERTION
+
+Collision for 315 at index 5
+Collision for 420 at index 0
+Collision for 525 at index 5
+Collision for 525 at index 6
+Collision for 630 at index 0
+Collision for 630 at index 1
+Collision for 735 at index 5
+Collision for 735 at index 6
+Collision for 735 at index 7
+Collision for 840 at index 0
+Collision for 840 at index 1
+Collision for 840 at index 2
+
+Final Hash Table:
+Index 0 : 210
+Index 1 : 420
+Index 2 : 630
+Index 3 : 840
+Index 4 : EMPTY
+Index 5 : 105
+Index 6 : 315
+Index 7 : 525
+Index 8 : 735
+Index 9 : EMPTY
+
+SEARCH COMPARISON
+--------------------------------------
+ID      Hashing    Linear Search
+--------------------------------------
+105        1            1
+210        1            2
+315        2            3
+420        2            4
+525        3            5
+630        3            6
+735        4            7
+840        4            8
