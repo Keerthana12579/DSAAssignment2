@@ -246,12 +246,17 @@ Although collisions occur because several song IDs produce the same hash value, 
 Therefore, hashing is more efficient and suitable for song ID searching than linear search.
 For better performance in larger applications, a suitable hash-table size and a good hash function should be selected to reduce collisions and maintain a lower load factor.
 ## Files in This Repository
+
 DSA-Assignment-Q7-Hashing/
-│
-├── hashing.c       # C implementation
-├── input.txt       # Input song IDs
-├── output.txt      # Program output
-└── README.md       # Project documentation
+
+hashing.c       # C implementation
+
+input.txt       # Input song IDs
+
+output.txt      # Program output
+
+README.md       # Project documentation
+
 ## Technologies Used
 Programming Language: C
 Data Structure: Hash Table
