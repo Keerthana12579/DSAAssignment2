@@ -122,8 +122,11 @@ A high load factor can result in more collisions and increase the number of comp
 The song IDs are searched using two methods:
 Hashing
 ## Linear Search
+
 1. Hashing Search
+
 The number of comparisons required for each song ID is:
+
 | Song ID | Positions Checked | Comparisons |
 | ------: | ----------------- | ----------: |
 |     105 | 5                 |           1 |
@@ -134,14 +137,23 @@ The number of comparisons required for each song ID is:
 |     630 | 0, 1, 2           |           3 |
 |     735 | 5, 6, 7, 8        |           4 |
 |     840 | 0, 1, 2, 3        |           4 |
+
 Total Hashing Comparisons
+
 1 + 1 + 2 + 2 + 3 + 3 + 4 + 4 = 20
+
 Average Hashing Comparisons
+
 20 / 8 = 2.5
+
 Therefore:
+
 Average hashing comparisons = 2.5
+
 2. Linear Search
+
 In linear search, the elements are checked sequentially from the beginning of the list.
+
 | Song ID | Position | Comparisons |
 | ------: | -------: | ----------: |
 |     105 |        1 |           1 |
@@ -152,13 +164,20 @@ In linear search, the elements are checked sequentially from the beginning of th
 |     630 |        6 |           6 |
 |     735 |        7 |           7 |
 |     840 |        8 |           8 |
+
 Total Linear Search Comparisons
+
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36
+
 Average Linear Search Comparisons
+
 36 / 8 = 4.5
+
 Therefore:
+
 Average linear search comparisons = 4.5
 ## Performance Comparison
+
 | Parameter                       |  Hashing |  Linear Search |
 | ------------------------------- | -------: | -------------: |
 | Total comparisons               |       20 |             36 |
