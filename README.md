@@ -73,29 +73,51 @@ Final Hash Table
 Several song IDs produce the same initial hash value.
 For example:
 105 mod 10 = 5
+
 315 mod 10 = 5
+
 525 mod 10 = 5
+
 735 mod 10 = 5
+
 Therefore, these values initially map to index 5.
+
 Similarly:
+
 210 mod 10 = 0
+
 420 mod 10 = 0
+
 630 mod 10 = 0
+
 840 mod 10 = 0
+
 These values initially map to index 0.
+
 Linear probing is therefore required to find the next available positions.
+
 Load Factor
+
 The load factor is calculated using:
+
 Load Factor = Number of elements / Hash table size
+
 Here:
+
 Number of elements = 8
+
 Hash table size = 10
+
 Therefore:
+
 Load Factor = 8 / 10
              = 0.8
              = 80%
+
 A load factor of 0.8 means that 80% of the hash table is occupied.
+
 A high load factor can result in more collisions and increase the number of comparisons during search.
+
 ## Search Comparison
 The song IDs are searched using two methods:
 Hashing
