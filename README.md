@@ -241,9 +241,13 @@ Hashing requires fewer comparisons than linear search for the given song IDs.
 ## Conclusion
 
 Hashing is suitable for the music application because song IDs are unique numerical values and are frequently searched.
+
 The Division Method provides direct access to the approximate location of a song ID, while linear probing is used to resolve collisions.
+
 Although collisions occur because several song IDs produce the same hash value, hashing still requires fewer comparisons than linear search in this implementation.
+
 Therefore, hashing is more efficient and suitable for song ID searching than linear search.
+
 For better performance in larger applications, a suitable hash-table size and a good hash function should be selected to reduce collisions and maintain a lower load factor.
 ## Files in This Repository
 
@@ -259,7 +263,11 @@ README.md       # Project documentation
 
 ## Technologies Used
 Programming Language: C
+
 Data Structure: Hash Table
+
 Hashing Technique: Division Method
+
 Collision Resolution: Linear Probing
+
 Searching Techniques: Hashing and Linear Search
